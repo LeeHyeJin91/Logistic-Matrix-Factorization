@@ -1,11 +1,11 @@
 # logistic_mf
 
 ### 파일 설명 
-LogisticMF.py : logistic matrix factorization 모델 클래스   
-Recommend.py  : 추천 관련 클래스   
-Metric.py     : 모델 평가 관련 클래스   
-Split.py      : train, test split 클래스   
-Utils.py      : 기타   
+* LogisticMF.py : logistic matrix factorization 모델 클래스   
+* Recommend.py  : 추천 관련 클래스   
+* Metric.py     : 모델 평가 관련 클래스   
+* Split.py      : train, test split 클래스   
+* Utils.py      : 기타   
 
 
 
