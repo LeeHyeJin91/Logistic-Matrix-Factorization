@@ -4,13 +4,13 @@
 * LogisticMF.py : logistic matrix factorization 모델 클래스   
 * Recommend.py  : 추천 관련 클래스   
 * Metric.py     : 모델 평가 관련 클래스   
-* Split.py      : train, test split 클래스   
+* Split.py      : 데이터 처리 클래스   
 * Utils.py      : 기타   
 
 
 
 ### data 
-u.data: user data of MovieLens 100K Datasets
+* u.data: user data of MovieLens 100K Datasets
 
 
 
