@@ -15,7 +15,6 @@ class Run:
         # 데이터 불러오기
         names = ['user_id', 'item_id', 'rating', 'timestamp']
         df = pd.read_csv(file_path + '/u.data', sep = '\t', names = names)
-        #df = pd.read_csv('C:/Users/user00/Desktop/ml-100k/u.data', sep = '\t', names = names)
         df['user_id'] = [uid-1 for uid in df['user_id']]
         df['item_id'] = [iid-1 for iid in df['item_id']]
 
